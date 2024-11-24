@@ -1,0 +1,31 @@
+employee_id,name,department,access_level,join_date,salary
+1,Rahul Sharma,AI Research,3,2024-01-15,181114
+2,Priya Patel,Engineering,3,2023-12-05,246813
+3,Balendra Savant,Data Engineering,3,2024-09-13,125921
+4,Dayamai Sengupta,Data Engineering,4,2024-02-22,210028
+5,Gavin Pal,Management,3,2024-05-25,158170
+6,Lisa Chen,Management,4,,2023-10-22,148257
+7,Avni Naik,Data Engineering,4,2023-12-14,226776
+8,Gaurangi Nagarajan,Data Engineering,3,2024-02-01,216700
+9,Hemangini Char,Data Engineering,4,2024-06-25,175997
+10,Qarin Kade,Machine Learning,4,2023-12-16,161804
+11,Ridhi Murthy,AI Research,4,2023-12-03,199807
+12,Damyanti Kapoor,Machine Learning,4,2024-01-20,126419
+13,Agastya Chawla,Data Engineering,3,2024-01-17,237275
+14,Watika Som,Engineering,3,2024-03-05,157993
+15,Azad Dalal,Management,3,2024-04-13,129049
+16,Udarsh Parikh,Engineering,3,2024-08-28,137996
+17,Nathan Jain,AI Research,3,2024-09-13,161947
+18,Aradhana Mani,AI Research,3,2024-09-17,147668
+19,Vedika Butala,AI Research,3,2024-04-18,144472
+20,Bimala Lall,Machine Learning,4,2024-08-15,128531
+21,Sarthak Kakar,Machine Learning,4,2024-04-26,156902
+22,Madhavi Kaur,Machine Learning,4,2024-05-12,134815
+23,Mekhala Palan,Management,3,2024-01-23,123801
+24,Lavanya Sidhu,Management,4,2024-08-16,140141
+25,Sai Singh,Machine Learning,4,2023-12-01,120696
+26,Bishakha Korpal,Data Engineering,3,2023-12-17,212881
+27,Eiravati Patil,Management,3,2024-04-14,197127
+28,Frado Seshadri,Engineering,3,2023-12-24,222975
+29,Henry Chakrabarti,Data Engineering,4,2024-04-24,210075
+30,Teerth Verma,AI Research,3,2024-09-19,170155

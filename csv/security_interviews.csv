@@ -1,0 +1,31 @@
+interview_id,employee_id,timestamp,statement
+1,1,2024-11-15 05:50:00,I stayed late to gather and clean data for our new AI model to improve its training performance.
+2,2,2024-11-15 06:22:00,Had to fix some urgent bugs in the system. Copied some files for backup purposes.
+3,3,2024-11-15 06:16:00,Was doing routine security checks throughout the night shift.
+4,4,2024-11-15 05:11:00,Had to fix some urgent bugs in the system. Copied some files for backup purposes.
+5,5,2024-11-15 06:56:00,Had to fix some urgent bugs in the system. Copied some files for backup purposes.
+6,6,2024-11-15 06:08:00,"I was working on deploying an AI model for a client, and I stayed late to ensure everything went smoothly."
+7,7,2024-11-15 06:09:00,Had to fix some urgent bugs in the system. Copied some files for backup purposes.
+8,8,2024-11-15 06:13:00,"I was involved in data preprocessing for a major machine learning project, which took longer than expected."
+9,9,2024-11-15 06:18:00,"I was working on deploying an AI model for a client, and I stayed late to ensure everything went smoothly."
+10,10,2024-11-15 06:35:00,"I was working on deploying an AI model for a client, and I stayed late to ensure everything went smoothly."
+11,11,2024-11-15 05:37:00,I had a meeting with a potential AI product partner and stayed late to finalize the presentation and data.
+12,12,2024-11-15 05:44:00,I was working on a critical machine learning algorithm and needed extra time to fine-tune it.
+13,13,2024-11-15 06:16:00,Had to fix some urgent bugs in the system. Copied some files for backup purposes.
+14,14,2024-11-15 06:35:00,Had to fix some urgent bugs in the system. Copied some files for backup purposes.
+15,15,2024-11-15 05:43:00,I had a meeting with a potential AI product partner and stayed late to finalize the presentation and data.
+16,16,2024-11-15 05:36:00,"I was conducting research on the latest deep learning techniques, and I needed the extra hours to analyze the results."
+17,17,2024-11-15 05:26:00,I stayed late to gather and clean data for our new AI model to improve its training performance.
+18,18,2024-11-15 06:54:00,I stayed late to gather and clean data for our new AI model to improve its training performance.
+19,19,2024-11-15 06:15:00,Was doing routine security checks throughout the night shift.
+20,20,2024-11-15 06:29:00,I had a meeting with a potential AI product partner and stayed late to finalize the presentation and data.
+21,21,2024-11-15 06:52:00,"I was conducting research on the latest deep learning techniques, and I needed the extra hours to analyze the results."
+22,22,2024-11-15 06:42:00,"I was involved in data preprocessing for a major machine learning project, which took longer than expected."
+23,23,2024-11-15 05:58:00,"I was conducting research on the latest deep learning techniques, and I needed the extra hours to analyze the results."
+24,24,2024-11-15 05:04:00,I was working on a critical machine learning algorithm and needed extra time to fine-tune it.
+25,25,2024-11-15 06:49:00,"I was involved in data preprocessing for a major machine learning project, which took longer than expected."
+26,26,2024-11-15 06:24:00,I was optimizing an AI model and stayed late to improve its accuracy before the deployment deadline.
+27,27,2024-11-15 05:18:00,"I was conducting research on the latest deep learning techniques, and I needed the extra hours to analyze the results."
+28,28,2024-11-15 05:52:00,I was working on a critical machine learning algorithm and needed extra time to fine-tune it.
+29,29,2024-11-15 05:58:00,I stayed late to gather and clean data for our new AI model to improve its training performance.
+30,30,2024-11-15 05:11:00,Was doing routine security checks throughout the night shift.
