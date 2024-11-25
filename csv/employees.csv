@@ -4,7 +4,7 @@ employee_id,name,department,access_level,join_date,salary
 3,Balendra Savant,Data Engineering,3,2024-09-13,125921
 4,Dayamai Sengupta,Data Engineering,4,2024-02-22,210028
 5,Gavin Pal,Management,3,2024-05-25,158170
-6,Lisa Chen,Management,4,,2023-10-22,148257
+6,Lisa Chen,Management,4,2023-10-22,148257
 7,Avni Naik,Data Engineering,4,2023-12-14,226776
 8,Gaurangi Nagarajan,Data Engineering,3,2024-02-01,216700
 9,Hemangini Char,Data Engineering,4,2024-06-25,175997
