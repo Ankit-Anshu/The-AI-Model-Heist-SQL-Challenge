@@ -7,11 +7,10 @@ Tragically, their revolutionary AI model was stolen and leaked to competitors. T
  **Time of the incident:** 2 AM - 4 AM.
 
 ## What you need to solve on your computer
-**Database System:** MySQL server to load the dump file and run SQL queries
 
 **AI_Model_Heist_SQL_Challenge.sql:** MySQL dump file to set up the database.
 
-**database_create.sql:** SQL code to create the database from scratch for use in other database systems.
+**database_create.sql:** MYSQL code to create the database from scratch.
 
 **AI_Model_Heist.db** This SQLite database file contains all the data that you will be working with. For beginners, we recommend using SQLiteStudio, 
 
