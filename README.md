@@ -13,6 +13,8 @@ Tragically, their revolutionary AI model was stolen and leaked to competitors. T
 
 **database_create.sql:** SQL code to create the database from scratch for use in other database systems.
 
+**AI_Model_Heist.db** This SQLite database file contains all the data that you will be working with. For beginners, we recommend using SQLiteStudio, 
+
 **Python:** If you prefer Python, CSV files are provided for the challenge tables. Load them using libraries like pandas.
 
 ## Hints to Solve
