@@ -20,17 +20,19 @@ If you want to solve the mystery, go to [The AI Model Heist SQL Challenge](https
  **Note:** This is just one approach to solving The AI Model Heist. Challenge yourself to solve it and tag me with your results! **[Twitter (X)](https://x.com/AnkitAnshu01) |** [LinkedIn](https://www.linkedin.com/in/ankitanshu01/) #SQLChallenge #AIModelHeist
 ##
 ## Hints to Solve
-Step 1: Find who was in the building during the incident
-Step 2: Check what files were accessed during this time
-Step 3: Highlight the significance of the files accessed
-Step 4: Look specifically for access to the AI Model file
-Step 5: Check for large Data transfers
-Step 6: Check large Data transfers specifically for the AI Model file
-Step 7: Get a suspicious employee who copied the AI Model file
-Step 8: Check Devices Used by These Suspects
-Step 9: Get a Complete Activity Log for Suspicious Employees
-Step 10: Check Their Security Interview Statements
-Final Step: Compile All Evidence Against the Suspect
+<ul>
+<li>Step 1: Find who was in the building during the incident</li>
+<li>Step 2: Check what files were accessed during this time</li>
+<li>Step 3: Highlight the significance of the files accessed</li>
+<li>Step 4: Look specifically for access to the AI Model file</li>
+<li>Step 5: Check for large Data transfers</li>
+<li>Step 6: Check large Data transfers specifically for the AI Model file</li>
+<li>Step 7: Get a suspicious employee who copied the AI Model file</li>
+<li>Step 8: Check Devices Used by These Suspects</li>
+<li>Step 9: Get a Complete Activity Log for Suspicious Employees</li>
+<li>Step 10: Check Their Security Interview Statements</li>
+<li>Final Step: Compile All Evidence Against the Suspect</li>
+</ul>
 
 ## Related Resources
 Medium Post: Read the full challenge [walkthrough on Medium]().
