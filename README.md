@@ -1,8 +1,8 @@
 # The AI Model Heist: SQL Challenge
 ## Investigate the Data Theft with SQL
 
-On the morning of November 15th, 2024, VortexAI reported a major data breach. VortexAI wasn't just any startup, they were about to launch a revolutionary AI model that could transform the entire industry.
-Tragically, their revolutionary AI model was stolen and leaked to competitors. The security system shows no signs of external access, which means someone  within the company is responsible. Detective Ankit needs your help to find out who did it. Your task is to use SQL queries to analyze the data and identify the person behind the crime.
+On the morning of November 15, 2024, VortexAI reported a major data breach. VortexAI wasn't just any startup, they were about to launch a groundbreaking AI model that could transform the entire industry.
+Tragically, their revolutionary AI model was stolen and leaked to competitors. The security system shows no signs of external access, which suggests that someone  within the company is responsible. Detective Ankit needs your help to find the culprit. Your task is to use SQL queries to analyze the data and identify the person behind the crime.
 
  **Time of the incident:** 2 AM - 4 AM.
 If you want to solve the mystery, go to [The AI Model Heist SQL Challenge](https://the-ai-model-heist-sql-challenge.onrender.com)
@@ -13,7 +13,7 @@ If you want to solve the mystery, go to [The AI Model Heist SQL Challenge](https
 
 **database_create.sql:** MYSQL code if you want to create the database from scratch.
 
-**AI_Model_Heist.db** This SQLite database file contains all the data you will need. For beginners, we recommend using SQLiteStudio
+**AI_Model_Heist.db** This SQLite database file contains all the necessary data. For beginners, we recommend using SQLiteStudio
 
 **CSV** If you prefer Python, CSV files are provided for the challenge. Load them using libraries like pandas.
 ## 
