@@ -17,8 +17,7 @@ If you want to solve the mystery, go to [The AI Model Heist SQL Challenge](https
 
 **CSV** If you prefer Python, CSV files are provided for the challenge. Load them using libraries like pandas.
 
-**Note:** This is just one approach to solving The AI Model Heist. Challenge yourself to solve it and tag me with your results!
-
+**Note:** This is just one approach to solving The AI Model Heist. Challenge yourself to solve it and tag me with your results! **[Twitter (X)]**(https://x.com/AnkitAnshu01) |** [LinkedIn]**(https://www.linkedin.com/in/ankitanshu01/) #SQLChallenge #AIModelHeist
 ## Hints to Solve
 Step 1: Find who was in the building during the incident
 Step 2: Check what files were accessed during this time
