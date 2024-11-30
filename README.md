@@ -2,10 +2,8 @@
 ## Investigate the Data Theft with SQL
 
 On the morning of November 15, 2024, VortexAI reported a major data breach. VortexAI wasn't just any startup, they were about to launch a groundbreaking AI model that could transform the entire industry.
-Tragically, their revolutionary AI model was stolen and leaked to competitors. The security system shows no signs of external access, which suggests that someone  within the company is responsible. Detective Ankit needs your help to find the culprit. Your task is to use SQL queries to analyze the data and identify the person behind the crime.
-
- **Time of the incident:** 2 AM - 4 AM.
-If you want to solve the mystery, go to [The AI Model Heist SQL Challenge](https://the-ai-model-heist-sql-challenge.onrender.com)
+Tragically, their revolutionary AI model was stolen and leaked to competitors. The breach occurred between 2 AM and 4 AM, and the security system shows no signs of external access, which suggests that someone  within the company is responsible. Detective Ankit needs your help to find the culprit. Your task is to use SQL queries to analyze the data and identify the person behind the crime.
+<br>If you want to solve the mystery, go to [The AI Model Heist SQL Challenge](https://the-ai-model-heist-sql-challenge.onrender.com)</br>
 
 ## What you need to solve on your computer
 
@@ -16,10 +14,11 @@ If you want to solve the mystery, go to [The AI Model Heist SQL Challenge](https
 **AI_Model_Heist.db** This SQLite database file contains all the necessary data. For beginners, we recommend using SQLiteStudio
 
 **CSV** If you prefer Python, CSV files are provided for the challenge. Load them using libraries like pandas.
-## 
+
+## Hints to Solve
  **Note:** This is just one approach to solving The AI Model Heist. Challenge yourself to solve it and tag me with your results! **[Twitter (X)](https://x.com/AnkitAnshu01) |** [LinkedIn](https://www.linkedin.com/in/ankitanshu01/) #SQLChallenge #AIModelHeist
 ##
-## Hints to Solve
+
 <ul>
 <li>Step 1: Find who was in the building during the incident</li>
 <li>Step 2: Check what files were accessed during this time</li>
