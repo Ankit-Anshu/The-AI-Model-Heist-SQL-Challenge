@@ -34,7 +34,7 @@ Tragically, their revolutionary AI model was stolen and leaked to competitors. T
 </ul>
 
 ## Related Resources
-Medium Post: Read the full challenge [walkthrough on Medium]().
+Medium Post: Read the full challenge [walkthrough on Medium](https://medium.com/p/81baaab06a1a).
 Website: [The AI Model Heist SQL Challenge](https://the-ai-model-heist-sql-challenge.onrender.com)
 
 ### Disclaimer
