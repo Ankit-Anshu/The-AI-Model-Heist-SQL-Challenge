@@ -16,7 +16,7 @@ Tragically, their revolutionary AI model was stolen and leaked to competitors. T
 **CSV** If you prefer Python, CSV files are provided for the challenge. Load them using libraries like pandas.
 
 ## Hints to Solve
- **Note:** This is just one approach to solving The AI Model Heist. Challenge yourself to solve it and tag me with your results! **[Twitter (X)](https://x.com/AnkitAnshu01) |** [LinkedIn](https://www.linkedin.com/in/ankitanshu01/) #SQLChallenge #AIModelHeist
+ **Note:** This is just one approach to solving The AI Model Heist. Challenge yourself to solve it and tag me with your results! **[Twitter (X)](https://x.com/AnkitAnshu01) |** [LinkedIn](https://www.linkedin.com/in/ankitanshu01/) #SQLChallenge #AIModelHeistSQLChallenge
 ##
 
 <ul>
