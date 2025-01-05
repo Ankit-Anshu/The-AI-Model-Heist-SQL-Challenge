@@ -19,10 +19,13 @@
     <meta property="og:url" content="https://the-ai-model-heist-sql-challenge.onrender.com/">
 
     <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="🚨 I solved the #AIModelHeistSQLChallenge 🕵️‍♂️🎉">
-    <meta name="twitter:description" content=" I cracked the case and helped Detective Ankit uncover the culprit! 🧩💻 Big shout-out to @AnkitAnshu01 for creating this amazing challenge! 🙌">
-    <meta name="twitter:image" content="{{ url_for('static', filename='images/certificate.png') }}">
+    <head>
+    <!-- Twitter Card Meta Tags for Image -->
+    <meta name="twitter:card" content="photo">  <!-- Tells Twitter to display a photo card -->
+    <meta name="twitter:image" content="https://the-ai-model-heist-sql-challenge.onrender.com/static/images/certificate.png">  <!-- Link to the image -->
+    <meta name="twitter:title" content=""> <!-- Empty title to avoid showing text -->
+    <meta name="twitter:description" content=""> <!-- Empty description to avoid showing text -->
+</head>
 
     <!-- Link to the static CSS file -->
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
