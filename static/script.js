@@ -115,14 +115,14 @@ function checkFinalAnswer() {
       const challengeUrl = encodeURIComponent('https://the-ai-model-heist-sql-challenge.onrender.com/');
       const certificateImageUrl = encodeURIComponent('{{ url_for("static", filename="images/certificate.png") }}');
       const twitterText = encodeURIComponent(
-          "🚨 I solved the #AIModelHeistSQLChallenge! 🕵️‍♂️🎉\n\n" +
+          "🚨 I solved the #AIModelHeistSQLChallenge 🕵️‍♂️🎉\n\n" +
           "I cracked the case and helped Detective Ankit uncover the culprit! 🧩💻\n\n" +
           "Big shout-out to @AnkitAnshu01 for creating this amazing challenge! 🙌\n\n" +
           "Can you crack the case? 👉 https://the-ai-model-heist-sql-challenge.onrender.com \n\n" +
           "#SQL #SQLChallenge #SQLQuery"
       );
       const linkedInSummary = encodeURIComponent(
-        "🚨 I solved the **#AIModelHeistSQLChallenge**! 🕵️‍♂️💻 This thrilling challenge truly pushed my problem-solving skills and SQL expertise to the limit. " +
+        "🚨 I solved the #AIModelHeistSQLChallenge 🕵️‍♂️💻 This thrilling challenge truly pushed my problem-solving skills and SQL expertise to the limit. " +
         "From analyzing data to piecing together clues, it was an exciting test of my abilities! 🔍💡 Huge thanks to @AnkitAnshu01 for crafting such an engaging and thought-provoking experience! 🙌🔥 " +
         "Can you crack the case and reveal the culprit? Dive in here: https://the-ai-model-heist-sql-challenge.onrender.com/ 🚀" +
         "#SQL #SQLChallenge #SQLQuery #ProblemSolving #DataAnalytics"
@@ -130,7 +130,7 @@ function checkFinalAnswer() {
     
 
      
-      const twitterShareUrl = `https://twitter.com/intent/tweet?text=${twitterText}&image=${certificateImageUrl}`;
+      const twitterShareUrl = `https://twitter.com/intent/tweet?text=${twitterText}`;
       const linkedinShareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${challengeUrl}&title=AI Model Heist SQL Challenge&summary=${linkedInSummary}`;
 
       // Set share links
