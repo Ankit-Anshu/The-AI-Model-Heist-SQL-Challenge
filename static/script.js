@@ -116,8 +116,8 @@ function checkFinalAnswer() {
       const certificateImageUrl = encodeURIComponent('{{ url_for("static", filename="images/certificate.png") }}');
       const twitterText = encodeURIComponent(
           "🚨 I solved the #AIModelHeistSQLChallenge 🕵️‍♂️🎉\n\n" +
-          "I cracked the case and helped Detective Ankit uncover the culprit! 🧩💻\n\n" +
-          "Big shout-out to @AnkitAnshu01 for creating this amazing challenge! 🙌\n\n" +
+          "I cracked the case and helped Detective Ankit uncover the culprit! 💻\n\n" +
+          "Big shout-out to @AnkitAnshu01 for creating this amazing challenge! \n\n" +
           "Can you crack the case? 👉 https://the-ai-model-heist-sql-challenge.onrender.com \n\n" +
           "#SQL #SQLChallenge #SQLQuery"
       );
