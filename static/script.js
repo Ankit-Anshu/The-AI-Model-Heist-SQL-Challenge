@@ -94,27 +94,55 @@ function startConfetti() {
   }
   
   // Function to check the final answer (culprit's name)
-  function checkFinalAnswer() {
-    const name = document.getElementById('culprit-name').value.trim().toUpperCase();
-    const celebrationDiv = document.getElementById('celebration');
-    const confessionDiv = document.getElementById('confession');
-    const incorrectDiv = document.getElementById('incorrect');
-  
-    // Check if the entered name matches the correct culprit
-    if (name === 'PRIYA PATEL') {
-      // Show celebration and confession, hide incorrect message
+function checkFinalAnswer() {
+  const name = document.getElementById('culprit-name').value.trim().toUpperCase();
+  const celebrationDiv = document.getElementById('celebration');
+  const confessionDiv = document.getElementById('confession');
+  const incorrectDiv = document.getElementById('incorrect');
+  const shareButtonsDiv = document.getElementById('share-buttons');
+  const certificateDiv = document.getElementById('certificate-container');  // Added for the certificate div
+
+  if (name === 'PRIYA PATEL') {
       celebrationDiv.style.display = 'block';
       confessionDiv.style.display = 'block';
-      incorrectDiv.style.display = 'none';  // Hide incorrect message
-  
-      // Trigger the confetti animation
+      incorrectDiv.style.display = 'none';
+      shareButtonsDiv.style.display = 'block';
+      certificateDiv.style.display = 'block';
+
       startConfetti();
-    } else {
-      // Show incorrect feedback and hide celebration/confession
+
+      // Generate share URLs
+      const challengeUrl = encodeURIComponent('https://the-ai-model-heist-sql-challenge.onrender.com/');
+      const certificateImageUrl = encodeURIComponent('{{ url_for("static", filename="images/certificate.png") }}');
+      const twitterText = encodeURIComponent(
+          "🚨 I solved the #AIModelHeistSQLChallenge! 🕵️‍♂️🎉\n\n" +
+          "I cracked the case and helped Detective Ankit uncover the culprit! 🧩💻\n\n" +
+          "Big shout-out to @AnkitAnshu01 for creating this amazing challenge! 🙌\n\n" +
+          "Can you crack the case? 👉 https://the-ai-model-heist-sql-challenge.onrender.com \n\n" +
+          "#SQL #SQLChallenge #SQLQuery"
+      );
+      const linkedInSummary = encodeURIComponent(
+        "🚨 I solved the **#AIModelHeistSQLChallenge**! 🕵️‍♂️💻 This thrilling challenge truly pushed my problem-solving skills and SQL expertise to the limit. " +
+        "From analyzing data to piecing together clues, it was an exciting test of my abilities! 🔍💡 Huge thanks to @AnkitAnshu01 for crafting such an engaging and thought-provoking experience! 🙌🔥 " +
+        "Can you crack the case and reveal the culprit? Dive in here: https://the-ai-model-heist-sql-challenge.onrender.com/ 🚀" +
+        "#SQL #SQLChallenge #SQLQuery #ProblemSolving #DataAnalytics"
+      );
+    
+
+     
+      const twitterShareUrl = `https://twitter.com/intent/tweet?text=${twitterText}&url=${challengeUrl}&image=${certificateImageUrl}`;
+      const linkedinShareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${challengeUrl}&title=AI Model Heist SQL Challenge&summary=${linkedInSummary}`;
+
+      // Set share links
+      document.getElementById('twitter-share-link').href = twitterShareUrl;
+      document.getElementById('linkedin-share-link').href = linkedinShareUrl;
+
+  } else {
       celebrationDiv.style.display = 'none';
       confessionDiv.style.display = 'none';
-      incorrectDiv.style.display = 'block'; 
-      incorrectDiv.innerHTML = "That's not the right person. Try again!"; // Show the incorrect message
-    }
+      incorrectDiv.style.display = 'block';
+      incorrectDiv.innerHTML = "That's not the right person. Try again!";
+      shareButtonsDiv.style.display = 'none';
+      certificateDiv.style.display = 'none';
   }
-  
+}
