@@ -130,7 +130,7 @@ function checkFinalAnswer() {
     
 
      
-      const twitterShareUrl = `https://twitter.com/intent/tweet?text=${twitterText}&url=${challengeUrl}&image=${certificateImageUrl}`;
+      const twitterShareUrl = `https://twitter.com/intent/tweet?text=${twitterText}&image=${certificateImageUrl}`;
       const linkedinShareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${challengeUrl}&title=AI Model Heist SQL Challenge&summary=${linkedInSummary}`;
 
       // Set share links
