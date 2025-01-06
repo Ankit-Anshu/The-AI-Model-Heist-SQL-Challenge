@@ -146,3 +146,30 @@ function checkFinalAnswer() {
       certificateDiv.style.display = 'none';
   }
 }
+
+
+// Flag to track if social share button is clicked
+let isSocialShareClicked = false;
+
+// Function to handle the social share button click
+function handleSocialShareClick() {
+    isSocialShareClicked = true;
+    updateMetaTags();
+}
+
+// Function to update meta tags dynamically based on the sharing method
+function updateMetaTags() {
+    const certificateImageUrl = "{{ url_for('static', filename='images/certificate.png') }}";
+    const coverImageUrl = "{{ url_for('static', filename='images/cover_photo.png') }}";
+    
+    // Determine the image based on the share method
+    const imageToShare = isSocialShareClicked ? certificateImageUrl : coverImageUrl;
+
+    // Update Open Graph and Twitter Card meta tags dynamically
+    document.querySelector("meta[property='og:image']").setAttribute("content", imageToShare);
+    document.querySelector("meta[name='twitter:image']").setAttribute("content", imageToShare);
+}
+
+// Update social share links to trigger the handleSocialShareClick function
+document.getElementById("twitter-share-link").addEventListener("click", handleSocialShareClick);
+document.getElementById("linkedin-share-link").addEventListener("click", handleSocialShareClick);
