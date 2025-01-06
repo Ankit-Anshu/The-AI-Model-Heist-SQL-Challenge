@@ -142,12 +142,10 @@ function setupSocialShareLinks() {
   document.getElementById('linkedin-share-link').href = linkedinShareUrl;
 }
 
-// Function to update meta tags dynamically
-function updateMetaForShare() {
-  const certificateImageUrl = 'https://the-ai-model-heist-sql-challenge.onrender.com/static/images/certificate.png';
-  
-  document.querySelector('meta[property="og:image"]').setAttribute('content', certificateImageUrl);
-  document.querySelector('meta[name="twitter:image"]').setAttribute('content', certificateImageUrl);
+// Function to update meta tags dynamically when a social share button is clicked
+function updateMetaForSocialShare(imageUrl) {
+  document.querySelector('meta[property="og:image"]').setAttribute('content', imageUrl);
+  document.querySelector('meta[name="twitter:image"]').setAttribute('content', imageUrl);
 }
 
 // Add event listeners for social share buttons
@@ -155,6 +153,14 @@ document.addEventListener('DOMContentLoaded', function () {
   const twitterShareButton = document.getElementById('twitter-share-link');
   const linkedinShareButton = document.getElementById('linkedin-share-link');
 
-  if (twitterShareButton) twitterShareButton.addEventListener('click', updateMetaForShare);
-  if (linkedinShareButton) linkedinShareButton.addEventListener('click', updateMetaForShare);
+  if (twitterShareButton) {
+      twitterShareButton.addEventListener('click', () => {
+          updateMetaForSocialShare('https://the-ai-model-heist-sql-challenge.onrender.com/static/images/certificate.png');
+      });
+  }
+  if (linkedinShareButton) {
+      linkedinShareButton.addEventListener('click', () => {
+          updateMetaForSocialShare('https://the-ai-model-heist-sql-challenge.onrender.com/static/images/certificate.png');
+      });
+  }
 });
