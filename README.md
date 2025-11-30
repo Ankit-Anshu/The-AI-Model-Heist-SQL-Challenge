@@ -1,7 +1,7 @@
 # The AI Model Heist: SQL Challenge
 ## Investigate the Data Theft with SQL
 
-On the morning of November 15, 2024, VortexAI reported a major data breach. VortexAI wasn't just any startup, they were about to launch a groundbreaking AI model that could transform the entire industry.
+On the morning of November 15, 2024, VortexAI reported a major data breach. VortexAI wasn't just any startup; they were about to launch a groundbreaking AI model that could transform the entire industry.
 Tragically, their revolutionary AI model was stolen and leaked to competitors. The breach occurred between 2 AM and 4 AM, and the security system shows no signs of external access, which suggests that someone  within the company is responsible. Detective Ankit needs your help to find the culprit. Your task is to use SQL queries to analyze the data and identify the person behind the crime.
 <br>If you want to solve the mystery, go to [The AI Model Heist SQL Challenge](https://the-ai-model-heist-sql-challenge.onrender.com)</br>
 
@@ -39,5 +39,5 @@ Website: [The AI Model Heist SQL Challenge](https://the-ai-model-heist-sql-chall
 
 ### Disclaimer
 All the data used here is generated using the Faker Python package and may contain some data anomalies.
-
+ 
 
